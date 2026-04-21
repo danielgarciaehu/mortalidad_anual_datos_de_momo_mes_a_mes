@@ -158,8 +158,8 @@ with tab_anual:
 
 # 3. MEDIAS MENSUALES (Todos los eneros juntos, todos los febreros juntos...)
 with tab_mensual:
-    st.subheader(f"ANÁLISIS ESTACIONAL: MEDIAS DE {var_label[selected_var]}")
-    st.markdown("AGREGACIÓN DE DATOS POR MES CALENDARIO (PROMEDIO DE TODA LA SERIE).")
+    st.subheader(f"ANÁLISIS ESTACIONAL: Medias de {var_label[selected_var]}")
+    st.markdown("Agregación de datos por mes calendario (promedio de toda la serie).")
     
     # Aquí es donde se recogen todos los meses iguales de la serie
     df_mensual_hist = df.groupby('Mes_Nombre', observed=False)[selected_var].mean().reset_index()
