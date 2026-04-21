@@ -28,6 +28,15 @@ st.markdown("""
     .stTabs [data-baseweb="tab-list"] button [data-testid="stMarkdownContainer"] p {
         font-size: 1.1rem;
         font-weight: 600;
+
+        color: #888888 !important;  /* Color para tabs inactivos */
+    }
+    
+    /* Estilo para el tab activo */
+    .stTabs [data-baseweb="tab-list"] button[aria-selected="true"] [data-testid="stMarkdownContainer"] p {
+        color: #FF6B6B !important;  /* Color para tab activo */
+
+
     }
     </style>
     """, unsafe_allow_html=True)
