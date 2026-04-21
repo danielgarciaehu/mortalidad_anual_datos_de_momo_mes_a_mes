@@ -83,10 +83,10 @@ variables = [
     'atribuibles_temperatura'
 ]
 var_label = {
-    'defunciones_observadas': 'DEFUNCIONES OBSERVADAS',
-    'defunciones_estimadas_base': 'DEFUNCIONES ESTIMADAS (BASE)',
-    'exceso_todas_causas': 'EXCESO DE MORTALIDAD',
-    'atribuibles_temperatura': 'ATRIBUIBLES A TEMPERATURA'
+    'defunciones_observadas': 'Defunciones observadas',
+    'defunciones_estimadas_base': 'Defunciones estimadas (base)',
+    'exceso_todas_causas': 'Exceso de mortalidad',
+    'atribuibles_temperatura': 'Atribuibles a temperatura'
 }
 
 selected_var = st.sidebar.selectbox(
@@ -96,7 +96,7 @@ selected_var = st.sidebar.selectbox(
 )
 
 st.sidebar.divider()
-st.sidebar.info("PANEL TÉCNICO DE ANÁLISIS DE MORTALIDAD (SISTEMA MOMO).")
+st.sidebar.info("Panel técnico de análisis de mortalidad (sistema MOMO) del Instituto de Salud Carlos III (www.isciii.es)")
 
 # --- PANEL PRINCIPAL ---
 st.markdown("<p style='color: #888; font-size: 0.9rem;'>← Despliega el menú lateral para cambiar filtros</p>", unsafe_allow_html=True)
