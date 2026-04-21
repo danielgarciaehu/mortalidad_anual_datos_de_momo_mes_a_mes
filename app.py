@@ -34,7 +34,7 @@ st.markdown("""
     
     /* Estilo para el tab activo */
     .stTabs [data-baseweb="tab-list"] button[aria-selected="true"] [data-testid="stMarkdownContainer"] p {
-        color: #FF6B6B !important;  /* Color para tab activo */
+        color: #000000 !important;  /* Color para tab activo */
 
 
     }
