@@ -29,7 +29,7 @@ st.markdown("""
         font-size: 1.1rem;
         font-weight: 600;
 
-        color: #888888 !important;  /* Color para tabs inactivos */
+        color: #bbb !important;  /* Color para tabs inactivos */
     }
     
     /* Estilo para el tab activo */
