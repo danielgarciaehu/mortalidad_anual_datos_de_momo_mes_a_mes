@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 # CONFIGURACION DE LA PAGINA (Sin iconos)
 st.set_page_config(
     page_title="MONITOR DE MORTALIDAD (MOMO) - ESPAÑA",
-    layout="wide"
+    layout="wide",
     initial_sidebar_state="collapsed"  # <-- ESTO HACE QUE APAREZCA CERRADO
 )
 
