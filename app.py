@@ -13,6 +13,9 @@ st.set_page_config(
 # ESTILO CSS PARA FORMALIDAD Y SERIEDAD
 st.markdown("""
     <style>
+
+
+
     .main {
         background-color: #F8F9FA;
     }
@@ -20,7 +23,7 @@ st.markdown("""
         background-color: #FFFFFF;
         padding: 15px;
         border-radius: 5px;
-        border: 1px solid #E0E0E0;
+    border: none !important;
     }
     .stTabs [data-baseweb="tab-list"] button [data-testid="stMarkdownContainer"] p {
         font-size: 1.1rem;
