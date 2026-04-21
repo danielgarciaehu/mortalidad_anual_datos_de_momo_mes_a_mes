@@ -7,6 +7,7 @@ import plotly.graph_objects as go
 st.set_page_config(
     page_title="MONITOR DE MORTALIDAD (MOMO) - ESPAÑA",
     layout="wide"
+    initial_sidebar_state="collapsed"  # <-- ESTO HACE QUE APAREZCA CERRADO
 )
 
 # ESTILO CSS PARA FORMALIDAD Y SERIEDAD
@@ -87,6 +88,7 @@ st.sidebar.info("PANEL TÉCNICO DE ANÁLISIS DE MORTALIDAD (SISTEMA MOMO).")
 
 # --- PANEL PRINCIPAL ---
 st.title("ANÁLISIS DE MORTALIDAD EN ESPAÑA (MOMO)")
+st.markdown("<p style='color: #888; font-size: 0.9rem;'>← Despliega el menú lateral para cambiar filtros</p>", unsafe_allow_html=True)
 st.markdown("---")
 
 # METRICAS RAPIDAS
