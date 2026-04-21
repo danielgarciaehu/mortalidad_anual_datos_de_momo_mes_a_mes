@@ -30,7 +30,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # PALETA DE COLORES FORMAL
-PALETTE = ['#4C78A8', '#72B7B2', '#59A14F', '#E15759', '#B07AA1', '#9C755F']
+PALETTE = ['#4C78A8', '#72B7B2', '#59A14F', '#2c17c8', '#a36191', '#9C755F']
 
 @st.cache_data
 def load_data():
