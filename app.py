@@ -89,7 +89,6 @@ st.sidebar.info("PANEL TÉCNICO DE ANÁLISIS DE MORTALIDAD (SISTEMA MOMO).")
 # --- PANEL PRINCIPAL ---
 st.markdown("<p style='color: #888; font-size: 0.9rem;'>← Despliega el menú lateral para cambiar filtros</p>", unsafe_allow_html=True)
 st.title("ANÁLISIS DE MORTALIDAD EN ESPAÑA (MOMO)")
-st.markdown("---")
 
 # METRICAS RAPIDAS
 col1, col2, col3 = st.columns(3)
